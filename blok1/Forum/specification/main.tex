@@ -1,0 +1,53 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[english]{babel}
+
+\title{Project Specification: Forum}
+\author{Gabriel Faucher, SDW20}
+\date{\today, 1st period}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\clearpage
+
+\input{sections/grading.tex}
+
+\section{Assignment}
+what is dit voor opdracht eigenlijk
+\clearpage
+
+\section{Inhoud}
+what kind of content is the project going to hold
+\clearpage
+
+\input{sections/design.tex}
+
+\section{Backend}
+What functionalities the backend will provide, divided into categories.
+
+\begin{itemize}
+  \item{Authorization/Authentication}
+    \begin{itemize}
+      \item{Create a user with username and password}
+      \item{Hash password before db save}
+      \item{Sign in/Authenticate: check if username exists and if password matches}
+      \item{API Endpoints}
+    \end{itemize}
+  \item{DB Quries}
+  \item{API Endpoints}
+\end{itemize}
+
+\clearpage
+
+\section{Frontend}
+pages
+\begin{itemize}
+  \item{Welcome: choose to sign in/up or continue without account}
+  \item{Home: display all threads and stuff}
+  \item{Indivual thread: display all comments}
+\end{itemize}
+\clearpage
+
+\end{document}
